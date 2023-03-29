@@ -1,8 +1,8 @@
 
 # A Laravel Nova package to expand rows in index view
 
-<!-- [![Latest Version on Packagist](https://img.shields.io/packagist/v/sprigs/nova-expandable-row.svg?style=flat-square)](https://packagist.org/packages/sprigs/nova-expandable-row)
-[![Total Downloads](https://img.shields.io/packagist/dt/sprigs/nova-expandable-row.svg?style=flat-square)](https://packagist.org/packages/sprigs/nova-expandable-row) -->
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sprigs/expandable-row.svg?style=flat-square)](https://packagist.org/packages/sprigs/expandable-row)
+[![Total Downloads](https://img.shields.io/packagist/dt/sprigs/expandable-row.svg?style=flat-square)](https://packagist.org/packages/sprigs/expandable-row)
 
 This package moves the preview data from the modal to an expandable row. Other details can be expanded aswell.
 

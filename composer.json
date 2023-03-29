@@ -1,6 +1,6 @@
 {
     "name": "sprigs/expandable-row",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova packgage that moves the preview from the modal to an expandable row.",
     "keywords": [
         "laravel",
         "nova"
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sprigs\\ExpandableRow\\": "src/"
+            "SPRIGS\\ExpandableRow\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sprigs\\ExpandableRow\\FieldServiceProvider"
+                "SPRIGS\\ExpandableRow\\FieldServiceProvider"
             ]
         }
     },

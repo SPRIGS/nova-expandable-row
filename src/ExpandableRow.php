@@ -1,6 +1,6 @@
 <?php
 
-namespace Sprigs\ExpandableRow;
+namespace SPRIGS\ExpandableRow;
 
 use Laravel\Nova\Fields\Field;
 
