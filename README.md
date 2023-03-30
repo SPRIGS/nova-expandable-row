@@ -50,7 +50,7 @@ You can change the column name by passing it as a parameter when initializing:
 
 
 ### Toggle label
-By default, the label next to the toggle arrow is set to 'Details'. It can be changed by calling the `toggleLabel()` method;
+By default, the label next to the toggle arrow is set to 'Details'. It can be changed by calling the `toggleLabel()` method.
 ```
     ExpandableRow::make('')->toggleLabel('Show more')
 ```
@@ -89,6 +89,12 @@ ExpandableRow::make('')
     );
 ```
 
+### Showing an icon
+In cases when you want to add an icon before the label, you can call `showIcon()` which accepts the Nova build in [heroicons (v1)](https://v1.heroicons.com) name, and a condition if the icon should show
+
+```php
+ExpandableRow::make('')->showIcon('cube-transparent', true)
+```
 
 
 <!-- ### Changelog

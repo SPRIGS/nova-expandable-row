@@ -97,4 +97,19 @@ class ExpandableRow extends Field implements \Laravel\Nova\Fields\Unfillable
             'toggleLabel' => $toggleLabel
         ]);
     }
+    
+    /**
+     * Show the warning icon
+     * 
+     * @param string $icon
+     * @param bool $shouldShowIcon
+     *
+     */
+    public function showIcon(string $icon = 'warning',bool $shouldShowIcon = true)
+    {
+        return $this->withMeta([
+            'showIcon' => $shouldShowIcon,
+            'icon' => $icon,
+        ]);
+    }
 }
