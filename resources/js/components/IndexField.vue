@@ -49,7 +49,7 @@
             <div class="md:w-1/4 md:py-3 max-w-xs">
               <h4 class="font-bold"><span>{{ field.name }}</span></h4>
             </div>
-            <div class="md:w-3/4 md:py-3 break-all lg:break-words max-w-2xl">
+            <div class="md:w-3/4 md:py-3 break-all lg:break-words max-w-xl">
               <div>
                 <div>
 
@@ -57,7 +57,7 @@
                     class=" w-full flex items-center text-left rounded px-1 py-1 !cursor-default">
                     <div class="flex items-center space-x-3">
                       <div>
-                        <p class="text-xs font-semibold">{{ value.display }}</p>
+                        <div class="text-xs font-semibold" v-html="value.display"></div>
                       </div>
                     </div>
                   </button>
